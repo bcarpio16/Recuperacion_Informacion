@@ -1,7 +1,7 @@
-# Ejercicio 1: Introducción a la Recuperación de Información
+# 🧠 Ejercicio 1: Introducción a la Recuperación de Información
 
-## Objetivo de la práctica
-* Entender el problema de buscar información en colecciones de texto.
+## 🎯 Objetivo de la práctica
+- Entender el problema de buscar información en colecciones de texto.
 * Comprender por qué se necesita un índice invertido en recuperación de información.
 * Programar una primera solución manual y luego optimizarla con un índice.
 * Evaluar la mejora en tiempos de búsqueda cuando usamos estructuras adecuadas.
