@@ -8,7 +8,7 @@
 - Semestre: 2025A
 
 
-Este repositorio contiene las prácticas y ejercicios desarrollados durante el curso de Recuperación de Información, impartido por el PhD. Iván Carrera. El enfoque del curso es brindar una comprensión teórico-práctica sobre los fundamentos de búsqueda y recuperación de datos en grandes volúmenes de texto.
+Este repositorio contiene las prácticas y ejercicios desarrollados durante el curso de Recuperación de Información. El enfoque del curso es brindar una comprensión teórico-práctica sobre los fundamentos de búsqueda y recuperación de la información.
 
 ## 📎 Repositorio oficial del curso: 
 
