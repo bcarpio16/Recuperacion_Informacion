@@ -35,12 +35,12 @@
    - Para búsqueda usando índice invertido.
    - Gráfica o presenta los resultados en una tabla comparativa.
 ### 📄 Ejemplo de palabras para buscar
-      - quito
-      - montañita
-      - feriado
-      - playas
-      - aventura
-      - galápagos
+    - quito
+    - montañita
+    - feriado
+    - playas
+    - aventura
+    - galápagos
 
 ## 📌 Parte 4: Multiple Búsqueda
 ### 🔧 Actividad
@@ -64,16 +64,15 @@
 
 > ✅ Todos los archivos `.txt` deben colocarse en la carpeta `data/`.
 
+
+
 ## ▶️ Ejecución
 
-Puedes ejecutar el código desde un archivo `.py` o celda de Jupyter Notebook:
+Puedes ejecutar el código `.py`:
 
-```python
-buscar_palabra = "Quito"
-carpeta = "data"
-buscar_en_varios_archivos(buscar_palabra, carpeta)
 ```
-
+python Ejercicio1-BusquedaBásica.py
+```
 ---
 
 ## 📌 Requisitos
@@ -84,27 +83,6 @@ buscar_en_varios_archivos(buscar_palabra, carpeta)
 No requiere librerías externas. Solo se usa la biblioteca estándar de Python (`os`).
 
 ---
-
-## 💡 Ejemplo de Salida
-
-```
-Resultados para la palabra 'quito':
-
-[01_corpus_turismo.txt] Quito es la capital del Ecuador y una joya del turismo andino.
-[01_corpus_turismo_500.txt] El centro histórico de Quito es patrimonio de la humanidad.
-```
-
----
-
-## ✅ Posibles mejoras
-
-- Contar el número de apariciones por archivo.
-- Buscar múltiples palabras clave.
-- Implementar expresiones regulares o coincidencias parciales.
-- Exportar los resultados a un archivo `.csv` o `.json`.
-
----
-
 ## 🧑‍💻 Autor
 
 Byron Carpio  
