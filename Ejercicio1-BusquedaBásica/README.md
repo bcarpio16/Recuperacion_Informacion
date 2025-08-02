@@ -59,7 +59,7 @@
 ├── data/
 │   ├── 01_corpus_turismo.txt
 │   └── 01_corpus_turismo_500.txt
-└── Ejercicio1-BusquedaBásica.py
+└── Ejercicio1-BusquedaBasica.py
 ```
 
 > ✅ Todos los archivos `.txt` deben colocarse en la carpeta `data/`.
