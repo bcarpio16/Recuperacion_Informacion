@@ -48,14 +48,9 @@
 2. Permite consultas de múltiples términos (ejemplo: buscar documentos que contengan "playa" y "turismo").
 3. Calcula el _speedup_
 
+----
 
-# 📄 Búsqueda de Palabras en Corpus de Texto
-
-## 🔎 Proyecto: Recuperación de la Información  
-Este proyecto implementa una herramienta básica para buscar una palabra específica dentro de varios archivos `.txt` que conforman un corpus textual.  
-Es ideal para prácticas en asignaturas como **Recuperación de la Información** o **Procesamiento de Lenguaje Natural (NLP)**.
-
----
+# 📄 Explicación Ejercicio
 
 ## 📂 Estructura del Proyecto
 
@@ -64,7 +59,7 @@ Es ideal para prácticas en asignaturas como **Recuperación de la Información*
 ├── data/
 │   ├── 01_corpus_turismo.txt
 │   └── 01_corpus_turismo_500.txt
-├── buscar_palabra.py
+├── Ejercicio1-BusquedaBásica.py
 └── README.md
 ```
 
