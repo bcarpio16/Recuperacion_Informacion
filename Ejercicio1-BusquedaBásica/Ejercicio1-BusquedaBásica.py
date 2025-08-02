@@ -1,15 +1,17 @@
+# Módulo para importar rutas 
 import os
 
-def buscar_en_varios_archivos(palabra, carpeta):
+#Función para buscar una palabra en archivos de texto dentro de una carpeta
+def buscar_archivos(palabra, carpeta):
     palabra = palabra.lower()
     resultados = []
 
-    archivos = [f for f in os.listdir(carpeta) if f.endswith(".txt")]
+    archivos = [i for i in os.listdir(carpeta)]
 
     for archivo in archivos:
         ruta_archivo = os.path.join(carpeta, archivo)
-        with open(ruta_archivo, 'r', encoding='utf-8') as f:
-            for linea in f:
+        with open(ruta_archivo, 'r', encoding='utf-8') as i:
+            for linea in i:
                 palabras_linea = linea.lower().split()
                 if palabra in palabras_linea:
                     resultados.append((archivo, linea.strip()))
@@ -24,6 +26,5 @@ def buscar_en_varios_archivos(palabra, carpeta):
 # Ejemplo de uso
 buscar_palabra = "Quito"
 carpeta = "data"
-buscar_en_varios_archivos(buscar_palabra, carpeta)
-#aasd
+buscar_archivos(buscar_palabra, carpeta)
 
