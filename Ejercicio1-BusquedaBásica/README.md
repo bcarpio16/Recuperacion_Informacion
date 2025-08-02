@@ -34,7 +34,7 @@
    - Para búsqueda lineal.
    - Para búsqueda usando índice invertido.
    - Gráfica o presenta los resultados en una tabla comparativa.
-#### 📄 Ejemplo de palabras para buscar
+### 📄 Ejemplo de palabras para buscar
       - quito
       - montañita
       - feriado
@@ -42,7 +42,7 @@
       - aventura
       - galápagos
 
-## 📌 Parte 4: 
+## 📌 Parte 4: Multiple Búsqueda
 ### 🔧 Actividad
 1. Modifica el índice para que ignore mayúsculas/minúsculas (por ejemplo, "Playa" y "playa" deben considerarse iguales).
 2. Permite consultas de múltiples términos (ejemplo: buscar documentos que contengan "playa" y "turismo").
